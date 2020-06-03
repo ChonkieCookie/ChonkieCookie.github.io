@@ -28,3 +28,14 @@ div.surveymonkey {
   height:675px;
   width:540px;
 }
+
+div.faq {
+	text-align: center;
+	font-size: 28;
+	font-weight: bold;
+}
+
+div.faq_answers {
+	text-align: center;
+	font-size: 20;
+}
