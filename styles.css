@@ -1,0 +1,31 @@
+div.scrollmenu {
+	overflow: hidden;
+	white-space: nowrap;
+	text-align: center;
+	font-size:28;
+	position:sticky;
+	top: 0;
+}
+
+div.scrollmenu a {
+	display: inline-block;
+    color: black;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+	background-color: #777;
+}
+
+div.menu {
+	text-align: center;
+}
+
+div.surveymonkey {
+  position:absolute;
+  left:685px;
+  height:675px;
+  width:540px;
+}
