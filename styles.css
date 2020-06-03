@@ -3,14 +3,12 @@ div.scrollmenu {
 	white-space: nowrap;
 	text-align: center;
 	font-size:28;
-	position:sticky;
 	top: 0;
-	background-color: white;
 }
 
 div.scrollmenu a {
 	display: inline-block;
-    color: black;
+    	color: black;
 	text-align: center;
 	padding: 14px;
 	text-decoration: none;
