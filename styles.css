@@ -5,6 +5,7 @@ div.scrollmenu {
 	font-size:28;
 	position:sticky;
 	top: 0;
+	background-color: white;
 }
 
 div.scrollmenu a {
