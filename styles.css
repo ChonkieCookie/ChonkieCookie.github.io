@@ -31,15 +31,14 @@ div.faq_answers {
 	font-size: 20;
 }
 
-div.surveyclass {
-	width="725px"
-}
-
   @media only screen
     and (min-device-width : 320px)
     and (max-device-width : 480px){ 
   }
 
+div.surveymonkey_desktop {
+	display:none;	
+}
 .mobileShow {
 	display: none;
 }
@@ -48,5 +47,6 @@ div.surveyclass {
   @media only screen
     and (min-device-width : 320px)
     and (max-device-width : 480px){ 
-      .mobileShow {display: inline;}
+  	.mobileShow {display: inline;}
+	div.surveymonkey_desktop {display: none;}
   }
