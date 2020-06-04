@@ -29,6 +29,10 @@ div.faq_answers {
 	font-size: 20;
 }
 
+div.surveyclass {
+	width="725px"
+}
+
   @media only screen
     and (min-device-width : 320px)
     and (max-device-width : 480px){ 
