@@ -40,8 +40,7 @@ div.surveymonkey_desktop {
 
   /* Smartphone Portrait and Landscape */
   @media only screen
-    and (min-device-width : 320px)
-    and (max-device-width : 480px){ 
+    and (max-device-width : 700px){ 
   	.mobileShow {display: inline;}
 	div.surveymonkey_desktop {display: none;}
   }
