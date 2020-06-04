@@ -31,13 +31,8 @@ div.faq_answers {
 	font-size: 20;
 }
 
-  @media only screen
-    and (min-device-width : 320px)
-    and (max-device-width : 480px){ 
-  }
-
 div.surveymonkey_desktop {
-	display:none;	
+	display:block;	
 }
 .mobileShow {
 	display: none;
