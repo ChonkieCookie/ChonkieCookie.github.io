@@ -19,12 +19,14 @@ div.scrollmenu a:hover {
 }
 
 div.menu {
-	text-align: center;
+	position: fixed;
+	max-width: 100%
+
 }
 
 div.surveymonkey {
-  position:absolute;
-  max-width: 100%
+	position:fixed;
+	max-width: 100%
 }
 
 div.faq {
