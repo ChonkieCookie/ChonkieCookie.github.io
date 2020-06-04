@@ -32,7 +32,9 @@ div.faq_answers {
 }
 
 div.surveymonkey_desktop {
-	text-align: center
+	text-align: center;
+	font-weight: bold;
+	font-size: 4;
 }
 .mobileShow {
 	display: none;
