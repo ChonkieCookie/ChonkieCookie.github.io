@@ -43,6 +43,9 @@ div.faq_answers {
 .div{
         bottom: 0;
     }
+* {
+  box-sizing: border-box;
+}
 
 .column {
   float: left;
