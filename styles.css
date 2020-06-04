@@ -32,7 +32,7 @@ div.faq_answers {
 }
 
 div.surveymonkey_desktop {
-	display:block;	
+	display:inline-block;	
 }
 .mobileShow {
 	display: none;
