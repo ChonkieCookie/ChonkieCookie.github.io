@@ -26,7 +26,7 @@ div.faq {
 	font-weight: bold;
 }
 
-div.header {
+.header > div {
     display: inline-block;
     display: -moz-inline-box;
     *display: inline; /* For IE7 */
