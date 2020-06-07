@@ -31,7 +31,7 @@ div.faq {
     display: -moz-inline-box;
     *display: inline; /* For IE7 */
     zoom: 1; /* Trigger hasLayout */
-    text-align: left;
+    text-align: center;
 }
 
 div.faq_answers {
