@@ -26,17 +26,16 @@ div.faq {
 	font-weight: bold;
 }
 
-div.fbIcon {
-	display: inline-block;
-	text-align:center;
-	margin:0 5px 0 5px
+.fblogo {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px; 
+}
+#socialIcons{
+   text-align:center;
 }
 
-div.igIcon {
-	display: inline-block;
-	text-align:center;
-	margin:0 5px 0 5px	
-}
 
 div.faq_answers {
 	text-align: center;
