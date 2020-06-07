@@ -26,6 +26,15 @@ div.faq {
 	font-weight: bold;
 }
 
+div.container {
+    display: inline-block;
+    display: -moz-inline-box;
+    *display: inline; /* For IE7 */
+    zoom: 1; /* Trigger hasLayout */
+    width: 33%;
+    text-align: center;
+}
+
 div.faq_answers {
 	text-align: center;
 	font-size: 20;
