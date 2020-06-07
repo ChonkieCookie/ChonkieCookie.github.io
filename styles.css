@@ -26,12 +26,15 @@ div.faq {
 	font-weight: bold;
 }
 
-.header > div {
-    display: inline-block;
-    display: -moz-inline-box;
-    *display: inline; /* For IE7 */
-    zoom: 1; /* Trigger hasLayout */
-    text-align: center;
+.socialIcons {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 30px; 
+}
+#header {
+	text-align:center;
+	margin:0 5px 0 5px	
 }
 
 div.faq_answers {
