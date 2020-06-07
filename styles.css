@@ -26,11 +26,14 @@ div.faq {
 	font-weight: bold;
 }
 
-.socialIcons {
+div.fbIcon {
 	display: inline-block;
+	text-align:center;
+	margin:0 5px 0 5px
 }
 
-#header {
+div.igIcon {
+	display: inline-block;
 	text-align:center;
 	margin:0 5px 0 5px	
 }
