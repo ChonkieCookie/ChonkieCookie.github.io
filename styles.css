@@ -53,13 +53,3 @@ div.surveymonkey_desktop {
 	font-size: 20;
 	font color="#000000;
 }
-.mobileShow {
-	display: none;
-}
-
-  /* Smartphone Portrait and Landscape */
-  @media only screen
-    and (max-device-width : 700px){ 
-  	.mobileShow {display: inline;}
-	div.surveymonkey_desktop {display: none;}
-  }
