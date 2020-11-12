@@ -1,0 +1,38 @@
+<!doctype html>    
+<head>
+	<meta charset="utf-8">    
+  <title>ChonkieCookie</title>
+	<link rel="stylesheet" type="text/css" href="ChonkieCookie.github.io/styles.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Patrick Hand">
+	<meta name="viewport" content="width=700px">
+	</head>      
+<body background="" link="white" alink="blue" vlink="#000000" >
+	
+
+	
+    <br />        
+        <img alt="logo" src="ChonkieCookie.github.io/ChonkieCookieLogo_v2.jpg" height="105px" width="106px">
+  	<br>
+	
+		<div class="scrollmenu">
+  <a href="https://chonkiecookie.github.io/">ORDER HERE</a>
+  <a href="index_faq.html">FAQ</a>	
+		</div>
+	
+	<br>
+
+	<div id="socialIcons">
+<a href="https://www.facebook.com/Chonkie-Cookie-108511907547658" target="_blank">
+<img class="fblogo" border="0" alt="FB Logo" src="ChonkieCookie.github.io/f-ogo_RGB_HEX-58.png"/></a>
+<a href="https://www.instagram.com/chonkiecookie/" target="_blank">
+    <img class="fblogo" border="0" alt="IG Logo" src="ChonkieCookie.github.io/glyph-logo_May2016-150x150.png"/></a></div>
+
+			
+    <h1>    
+       Hot Cocoa Bombs    
+    </h1>   
+ 
+			
+</body>
+	
+</html>    
