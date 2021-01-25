@@ -17,9 +17,9 @@ html { width:100%; height:100%; margin:0 padding:0; }
 	text-decoration: none;
 }
 
-#menuLogo, #fbLogo, #igLogo {
+.menuLogos {
 	display: inline-block;
-	padding-top: 60px;
+	padding: 60px 14px 14px 14px;
 	text-decoration: none;
 	height: 50px;
 	width: 50px;
