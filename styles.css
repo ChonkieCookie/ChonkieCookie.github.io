@@ -140,7 +140,7 @@ nav a:hover {
 	padding-bottom: 0px;
 }
 
-#limitedTimeOfferingsMenu, .pastMenus, #faqTitle, .faqBody {
+#limitedTimeOfferingsMenu, .pastMenus, #faqTitle, .faqBody, #orderHereTitle, #fanGalleryTitle {
 	text-align: center;
 	margin-top: 2em;
 	color: #555B6E;
@@ -214,7 +214,7 @@ nav a:hover {
   	margin-right: 2em;
 }
 
-#faqTitle, #orderHereTitle {
+#faqTitle, #orderHereTitle, #fanGalleryTitle {
 	padding: 25px;
 	border: none;
 	text-align: center;
