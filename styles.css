@@ -203,14 +203,6 @@ nav a:hover {
 	font-size: .75em;
 }
 
-#faqTitle {
-	padding: 25px;
-	border: none;
-	text-align: center;
-	outline: none;
-	background-color: #FFD6BA;  
-}
-
 .igLink {
 	text-align: center; 
 	font-size: 1.5em; 
@@ -221,11 +213,15 @@ nav a:hover {
   	margin-left: 2em;
   	margin-right: 2em;
 }
-/*
-.faqBody {
-	column-width: 200em;
+
+#faqTitle, #orderHereTitle {
+	padding: 25px;
+	border: none;
+	text-align: center;
+	outline: none;
+	background-color: #FFD6BA;  
 }
-*/
+
 .faqQuestions {
 	margin-top: 1.5em;
 	margin-bottom: 0.25em;
