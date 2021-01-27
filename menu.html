@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ChonkieCookie</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div id="topBar">
+	<h1>CHONKIE COOKIE DESSERTS</h1>
+
+<!-- Begin NavBar -->
+	<nav>
+		<a id="navMenu" href="menu.html">MENU</a> |
+		<a href="orderHere.html">ORDER HERE</a> |
+		<a href="index.html"><img alt="logo" src="chonkiecookie.png" height="105px" width="106px"></a> |
+		<a href="fanGallery.html">FAN GALLERY</a> |
+		<a href="faq.html">FAQ</a>
+	</nav>
+<!-- End NavBar -->
+	</div>
+
+<!-- Begin HeroImage -->
+	<div id="headImg">
+		<img class="headerImg" src="bottomHeroImg.jpg">
+		<img class="fadeImg" src="topHeroImg.jpg">
+	</div>
+<!-- End HeroImage -->
+
+<!-- Begin Mobile HeroImage -->
+	<div id="headImgMobile">
+		<img class="headerImgMobile" src="bottomHeroImgMobile.jpg">
+		<img class="fadeImgMobile" src="topHeroImgMobile.jpg">
+	</div>
+<!-- End Mobile HeroImage -->
+
+<!-- Begin Current Menu -->
+	<div id="limitedTimeOfferingsMenu">
+		<h2 class="menuTitles">LIMITED TIME OFFERINGS</h2>
+		<p class="menuItems">Lunar New Year Box</p>
+
+			<img id="limitedMenuImg"src="limitedMenuImg.jpeg">
+
+		<p class="menuDescriptions">Celebrate the Lunar New Year by enjoying this box full of goodies! In it, we have: 
+			<ul id="menuItemList">
+				<li>koi fish shaped jellies made with osmanthus tea and goji berries</li>
+				<li>almond cookie with raspberry jam filling and bits of lychee</li>
+				<li>red bean dumplings with a mochi like wrapper</li>
+				<li>a lucky orange made of a white chocolate shell filled with orange mousse and marmalade</li>
+				<li>two lunar new year "firecrackers" filled with candy (pull each end simultaneously to open and produce a loud noise!)</li>
+			</ul> 
+		</p>
+	</div>
+<!-- End Current Menu -->
+
+<!-- Begin Past Menu -->
+	<h2 class="pastMenus">Click Here for Past Menus</h2>
+		<div class="content">
+			<h3 class="pastMenuTitles">COOKIES (not currently available!*)</h3>
+			<p class="pastMenuItems">Black Sesame Marshmallow .................................$6</p>
+			<p class="pastMenuDescriptions">Our Asian inspired take on a classic New England dessert, the Fluffernutter</p>
+			<p class="pastMenuItems">Vietnamese Coffee ...................................................$6</p>
+			<p class="pastMenuDescriptions">But first, coffee. Just like Vietnamese Coffee, we've filled this coffee cookie with Longevity Brand condensed milk cream cheese along with some chocolate chips</p>
+			<p class="pastMenuItems">Matcha White Chocolate ...........................................$5.5</p>		
+			<p class="pastMenuDescriptions">If you love matcha, then you'll love this! We've made a matcha cookie filled with vanilla cream cheese and white chocolate chips</p>
+			<p class="pastMenuItems">Fruity Ube ....................................................................$5</p>
+			<p class="pastMenuDescriptions">We've combined the extremely popular Filipino flavor, Ube (aka purple yam) with fruity pebbles, coconut, and white chocolate chips to make a fun colorful cookie</p>
+			<p class="pastMenuItems">Coconut Pandan ........................................................$5</p>
+			<p class="pastMenuDescriptions">If you haven't heard of pandan, it's sometimes called Asian vanilla, and we've made a coconut pandan cookie topped with toasted coconut flakes</p>
+			<p class="pastMenuItems">Choco Choco Chip ....................................................$7</p>
+			<p class="pastMenuDescriptions">Our version of a classic chocolate chip cookie! We use a browned butter base with four different kinds of chocolate</p>
+
+			<h3 class="pastMenuTitles">MOONCAKES (not currently available!*)</h3>
+			<p class="pastMenuItems">Coconut Pandan Filling with Coconut "Yolk" .............$7.5</p>
+			<p class="pastMenuItems">Yuzu Thai Basil Filling with Mango "Yolk" ..................$7.5</p>
+			<p class="pastMenuItems">Vanilla Yakult Filling with Peach Yakult "Yolk" ...........$7.5</p>
+			<p class="pastMenuItems">Chinese Five Spice Filling with Asian Pear "Yolk" ......$7.5</p>
+
+				<br>
+
+			<p class="asterik">*Accepting orders larger than $100 orders on a case by case basis orders for Past Menu Items</p>
+
+		</div>
+	</div>
+<!-- End Past Menu -->
+
+<!-- Begin Past Menu Script -->
+<script>
+var coll = document.getElementsByClassName("pastMenus");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+<!-- End Past Menu Script -->
+</body>
+</html>

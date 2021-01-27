@@ -226,7 +226,11 @@ nav a:hover {
   	margin-left: 2em;
   	margin-right: 2em;
 }
-
+/*
+.faqBody {
+	column-width: 200em;
+}
+*/
 .faqQuestions {
 	margin-top: 1.5em;
 	margin-bottom: 0.25em;
