@@ -82,33 +82,32 @@ nav a:hover {
 }
 
 @media screen and (min-width: 600px) {
-  #headImgMobile {
-    visibility: hidden;
-    margin-bottom: -6em;
+	#headImgMobile {
+		visibility: hidden;
+		margin-bottom: -6em;
  }
+	#headImg {
+		position: relative;
+		display: block;
+		width: 100%;
+		max-width: 3000px;
+		height: 55vh;
+		margin:0 auto;
+		overflow: hidden;
 }
 
-#headImg {
-	position: relative;
-	display: block;
-	width: 100%;
-	max-width: 3000px;
-	height: 55vh;
-	margin:0 auto;
-	overflow: hidden;
+	#headImg img {
+		position:absolute;
+		left:0;
+		-webkit-transition: opacity 1s ease-in-out;
+		-moz-transition: opacity 1s ease-in-out;
+		-o-transition: opacity 1s ease-in-out;
+		transition: opacity 1s ease-in-out;
 }
 
-#headImg img {
-	position:absolute;
-	left:0;
-	-webkit-transition: opacity 1s ease-in-out;
-	-moz-transition: opacity 1s ease-in-out;
-	-o-transition: opacity 1s ease-in-out;
-	transition: opacity 1s ease-in-out;
+	#headImg img.fadeImg:hover {
+	  opacity:0;
 }
-
-#headImg img.fadeImg:hover {
-  opacity:0;
 }
 
 /*Begin Quotes */
