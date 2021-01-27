@@ -1,203 +1,233 @@
-html { width:100%; height:100%; margin:0 padding:0; }
+body {
+	background-image: linear-gradient(to top left, rgba(250, 249, 237,0), rgba(250, 249, 237,.75));
+}
 
-.scrollmenu {
+h1 {
+	text-align: center;
+	font-size: 60;
+	font-family: "Patrick Hand";	
+	color: #555B6E;
+	padding-top: 30px;
+}
+
+nav {
 	overflow: hidden;
 	white-space: nowrap;
 	text-align: center;
-	font-size:28;
-	top: 0;
+	font-size: .9em;
 	font-family: "Patrick Hand";
-}
-
-.scrollmenu image {
-	display: inline-block;
-    	color: black;
-	text-align: left;
 	padding: 14px;
-	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
-.scrollmenu a {
-	display: inline-block;
-    	color: black;
-	text-align: center;
-	padding: 14px;
+nav a {
 	text-decoration: none;
+	color: #555B6E;
 }
-
-.scrollmenu a:hover {
+/* Pending hover
+nav a:hover {
 	background-color: #777;
 }
-
-.fblogo {
-	display: inline-block;
-	margin-left: auto;
-	margin-right: auto;
-	height: 50px;
-	width: 50px;
+*/
+#topBar {
+	background-color: white;
+	background-image: linear-gradient(to bottom right, rgba(250, 249, 237,0), rgba(250, 249, 237,.75));
 }
 
-.fblogo a {
-	display: inline-block;
-    	color: black;
-}
-
-.fblogo a:hover {
-	background-color: #777;
-}
-
-#socialIcons{
-	text-align:center;
-}
-
-#socialIcons a { 
-	margin:0 5px 0 5px
-}
-
-.welcomeHeader {
-	text-align: center;
-	font-size: 60;
-	font-family: "Patrick Hand";	
-	color: #F0B27A;
-}
-
-.extraHeaderText {
-	text-align: center;
-	font-size: 29;
-	font-family: "Patrick Hand";	
-	color: black;
-}
-
-* {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 500px;
-  position: relative;
-  margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #000000;
-  font-size: 20px;
-  font-family: "Patrick Hand";	
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-.faqHeader {
-	text-align: center;
-	font-size: 60;
-	font-family: "Patrick Hand";	
-	color: #F0B27A;
-}
-
-.faq {
-	text-align: center;
-	font-size: 28;
+#navMenu, #navOrderHere, #navLogo, #navFanGallery, #navFaq {
+	background-color: #FAF9F9;
 	font-weight: bold;
-	font-family: "Patrick Hand";	
+	font-size: 1.4em;
+}
+/*
+#headImg {
+	position:relative;
+	max-width:100%;
+	height:55vh;
+	margin:0 auto;
+	overflow: hidden;
+}
+*/
 
+@media screen and (max-width: 600px) {
+	#headImg {
+    	visibility: hidden;
+ }
+	#headImgMobile {
+		position: relative;
+		display: block;
+		width: 100%;
+		height: 55vh;
+		margin:0 auto;
+		overflow: hidden;
+		margin-bottom: -25em;
+		margin-top: -30em;
 }
 
-.faq_answers {
+	#headImgMobile img {
+		position:absolute;
+		left:0;
+		-webkit-transition: opacity 1s ease-in-out;
+		-moz-transition: opacity 1s ease-in-out;
+		-o-transition: opacity 1s ease-in-out;
+		transition: opacity 1s ease-in-out;
+}
+
+	#headImgMobile img.fadeImgMobile:hover {
+		opacity:0;
+}
+}
+
+@media screen and (min-width: 600px) {
+  #headImgMobile {
+    visibility: hidden;
+    margin-bottom: -6em;
+ }
+}
+
+#headImg {
+	position: relative;
+	display: block;
+	width: 100%;
+	max-width: 3000px;
+	height: 55vh;
+	margin:0 auto;
+	overflow: hidden;
+}
+
+#headImg img {
+	position:absolute;
+	left:0;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+}
+
+#headImg img.fadeImg:hover {
+  opacity:0;
+}
+
+/*Begin Quotes */
+.fanQuotes {
+	display:none;
+	width:100%
 	text-align: center;
-	font-size: 20;
-	font-family: "Patrick Hand";	
-
+	margin-left: 2em;
+	margin-right: 2em;
 }
 
-.surveymonkey_desktop {
+.w3-content {
+	margin-left:auto;
+	margin-right:auto
+}
+.w3-content {
+	max-width:980px
+}
+
+.w3-section {
+	margin-top:85px!important;
+	margin-bottom:80px!important
+}
+/*End Quotes */
+
+.card{
+	margin: auto;
+}
+
+.card-body, .card-text {
 	text-align: center;
-	font-weight: bold;
-	font-size: 20;
-	font color="#000000;
+
 }
 
-.deliveryMap {
+#topBarOrderForm {
+	padding-bottom: 0px;
+}
+
+#limitedTimeOfferingsMenu, .pastMenus, #faqTitle, .faqBody {
+	text-align: center;
+	margin-top: 2em;
+	color: #555B6E;
+}
+
+#limitedMenuImg {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
-	height: 527px;
-	width: 525px;
+	margin-bottom: 1em;
+	width: 25em;	
+}
+
+.menuItems, .pastMenuItems, .faqQuestions {
+	font-size: 1.45em;
+	margin-top: .75em;
+}
+
+.menuDescriptions, .pastMenuDescriptions, .faqAnswers {
+	font-size: .95em;
+	margin-bottom: 1.5em;
+	margin-left: 2em;
+	margin-right: 2em;
+	color: #555B6E;
+}
+
+#menuItemList {
+	text-align: center;
+	list-style-type: circle;
+	list-style-position: inside;
+	font-size: .85em;
+	margin-top: -20px;
+}
+
+.pastMenus {
+	margin: 45px 0 0 0;
+	padding: 11px 0 15px 0;
+	border: none;
+	text-align: center;
+	outline: none;
+	cursor: pointer;
+	border: .5px solid #FFD6BA;
+	background-color: #FFD6BA;  
+}
+
+.pastMenuTitles {
+	margin-top: 1em;
+}
+
+.content {
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+	text-align: center;
+	margin-bottom: 50px;
+
+}
+
+.asterik {
+	font-size: .75em;
+}
+
+#faqTitle {
+	padding: 25px;
+	border: none;
+	text-align: center;
+	outline: none;
+	background-color: #FFD6BA;  
+}
+
+.igLink {
+	text-align: center; 
+	font-size: 1.5em; 
+	font-style: italic;
+	display: block; 
+	padding: 5px; 
+  	border: 1px transparent #000000;
+  	margin-left: 2em;
+  	margin-right: 2em;
+}
+
+.faqQuestions {
+	margin-top: 1.5em;
+	margin-bottom: 0.25em;
 }
