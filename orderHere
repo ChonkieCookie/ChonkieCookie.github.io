@@ -12,11 +12,11 @@
 
 <!-- Begin NavBar -->
 	<nav>
-		<a href="menu">MENU</a> |
-		<a id="navOrderHere" href="orderHere">ORDER</a> |
+		<a href="menu.html">MENU</a> |
+		<a id="navOrderHere" href="orderHere.html">ORDER</a> |
 		<a href="index.html"><img alt="logo" src="chonkiecookie.png" height="105px" width="106px"></a> |
-		<a href="fanGallery">FANS</a> |
-		<a href="faq">FAQ</a>
+		<a href="fanGallery.html">FANS</a> |
+		<a href="faq.html">FAQ</a>
 	</nav>
 <!-- End NavBar -->
 	</div>
